@@ -1,0 +1,37 @@
+@media (max-width:576px){
+    .wrapper{
+        max-width: 512px;
+    }
+    .header-nav{
+        /* display: none; */ 
+        position: absolute;
+        width: 100%;
+        background: #3298f2;
+        left: -100%;
+        flex-direction: column;
+        height: 93vh;
+        top: 93px; 
+        transition: left 1ms; 
+        row-gap: 25px;
+        padding-top:50px ;
+    }  
+    .header-nav a{
+        color: white; 
+        font-weight: 700;
+    }
+    .active .header-nav {
+        left: 0;
+    }
+    .header_button{
+        display: none;
+    }
+    .header-logo{
+        width: 200px;
+    }
+    .mobile_button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+} 

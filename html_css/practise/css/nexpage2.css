@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0; 
+    background: radial-gradient(rgb(44, 132, 190),rgb(253, 253, 9));
+}
+.links {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+} 
+.navigation{   
+         margin: 45px 25px 45px 25px;
+        padding: 18px;
+
+        font-size: 25px;
+        font-family: Impact,
+            Haettenschweiler,
+            'Arial Narrow Bold',
+            sans-serif;
+    }
+
+    .navigation a { 
+        width: 100px;
+
+        text-decoration: none;
+        color: black;
+    }
+
+    .navigation a:hover {
+        font-weight: 500;
+    }
+.btn {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 10px;
+
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.btn a {
+    width: 100px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+
+    background: grey;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+.btn a:hover {
+    background: whitesmoke;
+    transition: 1300ms;
+} 
+.information{
+    margin: 50px 20px 50px 20px;
+    padding: 10px 15px 10px 15px;
+} 
+h1{
+    font-size: 65px ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    
+    text-align: center;
+}  
+h2{ 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 45px;
+   
+    text-align: center;
+} 
+.list-1{
+    margin: 35px 15px 35px 15px;
+    padding: 15px 10px 15px 10px; 
+
+    display:flex;
+    justify-content: space-around;
+}
+.list-2{
+    margin: 35px 15px 35px 15px;
+    padding: 15px 10px 15px 10px;
+
+    display: flex; 
+    justify-content: space-around;    
+}

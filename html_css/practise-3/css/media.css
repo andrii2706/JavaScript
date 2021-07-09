@@ -1,0 +1,20 @@
+@media (max-width:576px) {
+    .wrapper{
+        max-width: 512px;
+    }  
+    
+    .menu-right {
+        display: flex; 
+        align-items: center;
+
+    } 
+    .left-menu{
+        display: none; 
+
+            }
+        .mobile_button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        } 

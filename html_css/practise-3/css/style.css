@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.left-menu {
+    /* width: 100%;  */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-right {
+    width: 75%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.left-menu a {
+    color: black;
+    text-decoration: none; 
+    font-family: 'Stint Ultra Condensed',
+    cursive;
+}
+
+.left-menu a:hover {
+    font-weight: 700
+}
+
+.left-menu a,
+.menu-right i { 
+    font-size: 45px;
+    margin: 30px;
+}
+
+.menu-right i {
+    color: silver;
+}
+
+.menu-right i:hover {
+    color: #30abae;
+}
+li{
+    list-style: none;
+}
+.blog h1{   
+    position: absolute; 
+    z-index: 1;
+    width: 35%;
+     font-family: 'Stint Ultra Condensed',
+     cursive;
+    margin: 100px 1082px 57px 207px;
+} 
+.list{
+        margin: 110px;
+}
+.list li{ 
+     font-family: 'Stint Ultra Condensed',
+     cursive;
+    width: 150px;
+    border: 1px solid silver;
+    text-align: center;
+    border-radius: 12px; 
+    margin: 10px;
+} 
+h2{
+     font-family: 'Stint Ultra Condensed',
+     cursive;
+} 
+.list a{ 
+    text-decoration: none; 
+    color: #30ABAE;
+}
+.list-2{
+    background: #E4E4E4;
+}
+.background-light{
+    position: absolute; 
+    width: 693px;
+    height: 656px;
+    left: -21px;
+    top: 155px;
+
+    background: #F2F5F1;
+}
+.inform{
+    display: flex;
+    justify-content: space- around;
+}
+.blog-1{ 
+    width: 33%; 
+    height: auto;  
+    padding: 45px 70px 45px 70px;
+    z-index: 1; 
+}
+.flex{
+    display: flex;
+} 
+.margin{
+    margin-top: 245px;
+    margin-right: 157px;
+    margin-left: 404px;
+}
+.border{
+    border-top: 1px solid tomato ;
+    margin-top:29px ;
+}  
+.down{  
+    width: 100%; 
+    display: flex ;
+    justify-content: space-between;
+} 
+.blog-2{
+      padding: 45px 70px 45px 70px; 
+}
+.margin-for-bloc{
+        margin-top: 245px;
+        margin-right: 157px;
+        margin-left: 45px;
+} 
+.footer{
+    width: 100%;
+    height: 90px; 
+    background: #16595A;
+} 
+.list li:hover{
+    background: silver;
+}
+.a{
+    text-decoration: none;
+    color: #30ABAE;
+} 
+a:hover{
+    color: skyblue;
+    font-weight: 700;
+    font-style: italic;
+}
+.footer-1{ 
+    font-size: large; 
+    display: flex;
+    justify-content: center;
+} 
+.menu_button { 
+        display: none;
+    width: 25%; 
+    height: 40px;
+    border: 2px solid black; 
+    position: absolute;
+    right: 30px;
+    top: 20px;
+
+}
+.menu_button span{
+    
+}
