@@ -1,4 +1,4 @@
-// №1 і№2 пункти
+ // №1 і№2 пункти
 // let greetings = 'hello'; 
 // greetings ='owu';
 // let school = 'owu'; 

@@ -1,4 +1,4 @@
-// 1 створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
+ // 1 створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 // створити пустий масив, наповнити його 10 об'єктами User
 
 // function User ( id, name, surname, email, phone ){

@@ -26,7 +26,7 @@
 // emptyArray[4] = {name :'OLya', age : 8};  
 // emptyArray[5] = {name :'Kolya', age : 21};  
 // console.log(emptyArray);
-
+// console.log();
 
 
 

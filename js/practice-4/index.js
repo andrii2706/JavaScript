@@ -1,25 +1,20 @@
-class Popelushka{
-    constructor(name, age, whaite){
-        this.name = name;
-        this.age = age;
-        this.whaite = whaite;
-    }
-
-    info(){
-        console.log(yes);
-    }
-
-
-
-}
-
-
-const pop1  = new Popelushka() 
-
-
-
-
-
+// class Popelushka{
+//     constructor(name, age, whaite){
+//         this.name = name;
+//         this.age = age;
+//         this.whaite = whaite;
+//     }
+//
+//     info(){
+//         console.log(yes);
+//     }
+//
+//
+//
+// }
+//
+//
+// const pop1  = new Popelushka()
 
 
 // -Створити функцію конструктор для об 'єкту який описує теги
